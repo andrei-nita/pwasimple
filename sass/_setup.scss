@@ -1,0 +1,56 @@
+$green-900: #012d1d;
+$green-800: #025c3b;
+$green-700: #038757;
+$green-600: #04b272;
+$green-500: #05d689;
+$green-400: #06f49d;
+$green-300: #a6fddd;
+$green-200: #d8fef0;
+$green-100: #f8fffc;
+
+$gray-900: #272727;
+$gray-800: #505050;
+$gray-700: #767676;
+$gray-600: #9b9b9b;
+$gray-500: #bcbcbc;
+$gray-400: #d6d6d6;
+$gray-300: #eaeaea;
+$gray-200: #f6f6f6;
+$gray-100: #fdfdfd;
+
+$red-700: #dc3639;
+
+$blue-100: #fcfdff;
+$blue-600: #6a9bf0;
+$blue-700: #114aad;
+
+$font-size-link: 17px;
+$font-size-header: 26px;
+
+@font-face {
+    font-family: SansProBlack;
+    src: url(./font/Source_Sans_Pro/SourceSansPro-Black.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: SansProRegular;
+    src: url(./font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: SansProBold;
+    src: url(./font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+    font-display: swap;
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: SansProRegular, sans-serif;
+    color: #012d1d;
+}
